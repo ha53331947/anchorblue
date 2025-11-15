@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo-anchor-blue.png" type="image/png">
+    <title>Anchor Blue - Premium Pakistani Clothing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/logo-anchor-blue.png" style="width: 30px;">
+                <span class="ms-2 fw-bold">Anchor Blue</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="men.html">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="women.html">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kids.html">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="cartBtn">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="badge bg-danger" id="cartCount">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <img src="assets/hero-banner-fashion.jpg" alt="Fashion Banner" class="hero-image">
+        <div class="hero-content">
+            <h1 class="display-3 fw-bold text-white mb-3">Welcome to Anchor Blue</h1>
+            <p class="lead text-white mb-4">Discover Premium Pakistani Fashion for Everyone</p>
+            <a href="#categories" class="btn btn-light btn-lg px-5">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">Shop by Category</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="category-card">
+                        <div class="category-image-wrapper">
+                            <img src="assets/mens-shirt-blue.jpg" alt="Men's Collection" class="category-image">
+                        </div>
+                        <div class="category-content">
+                            <h3>Men's Collection</h3>
+                            <p>Stylish shirts, kurtas & more</p>
+                            <a href="men.html" class="btn btn-primary">Explore Men</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="category-card">
+                        <div class="category-image-wrapper">
+                            <img src="assets/womens-kurta-traditional.jpg" alt="Women's Collection" class="category-image">
+                        </div>
+                        <div class="category-content">
+                            <h3>Women's Collection</h3>
+                            <p>Elegant kurtas, dupattas & dresses</p>
+                            <a href="women.html" class="btn btn-primary">Explore Women</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="category-card">
+                        <div class="category-image-wrapper">
+                            <img src="assets/kids-tshirt-colorful.jpg" alt="Kids' Collection" class="category-image">
+                        </div>
+                        <div class="category-content">
+                            <h3>Kids' Collection</h3>
+                            <p>Comfortable & playful outfits</p>
+                            <a href="kids.html" class="btn btn-primary">Explore Kids</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">Featured Products</h2>
+            <div class="row g-4" id="featuredProducts">
+                <!-- Products will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Anchor Blue</h5>
+                    <p>Your trusted destination for premium Pakistani clothing</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="men.html" class="text-white-50">Men's Collection</a></li>
+                        <li><a href="women.html" class="text-white-50">Women's Collection</a></li>
+                        <li><a href="kids.html" class="text-white-50">Kids' Collection</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p class="text-white-50">Email: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=xQTrpBDRFCcbHLvTNkjdcHZZprKHqSdBfjRdVKCBpNlkwffNVJgkCvWfLkSKgRwDlPCFlkbqmDWWLkGzNVtTLxXRCvmWsnXsrqJLPlpBZzkmNQZNqrzlb" class="__cf_email__" data-cfemail="137a7d757c53727d707b7c61717f66763d6378">anchorblue111@gmail.com</a><br>Phone: +92 324 2246809</p>
+                </div>
+            </div>
+            <hr class="bg-white">
+            <p class="text-center mb-0">&copy; 2024 Anchor Blue. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h4>Shopping Cart</h4>
+            <button class="btn-close-cart" id="closeCart">&times;</button>
+        </div>
+        <div class="cart-body" id="cartItems">
+            <p class="text-center text-muted" id="emptyCartMessage">Your cart is empty</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <strong>Total:</strong>
+                <strong id="cartTotal">PKR 0</strong>
+            </div>
+            <a href="checkout.html">
+            <button class="btn btn-primary w-100 mt-3">Checkout</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Product Detail Modal -->
+    <div class="modal fade" id="productModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProductName"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img id="modalProductImage" src="" alt="" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="text-primary mb-3" id="modalProductPrice"></h3>
+                            <p id="modalProductDescription"></p>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">Select Size:</label>
+                                <div id="modalSizeOptions" class="size-options"></div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">Quantity:</label>
+                                <input type="number" class="form-control" id="modalQuantity" value="1" min="1" max="10">
+                            </div>
+                            <button class="btn btn-primary btn-lg w-100" id="addToCartBtn">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
